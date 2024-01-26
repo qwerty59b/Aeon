@@ -37,10 +37,10 @@ async def nsfw_precheck(message):
             if isNSFW(reply_to.caption):
                 return True
         if reply_to.document:
-            if isNSFW(reply_to.document.file_name):
+            if isNSFW(reply_to.document):
                 return True
         if reply_to.video:
-            if isNSFW(reply_to.video.file_name):
+            if isNSFW(reply_to.video):
                 return True
         if reply_to.text:
             if isNSFW(reply_to.text):
