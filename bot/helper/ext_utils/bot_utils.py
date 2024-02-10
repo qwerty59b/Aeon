@@ -38,7 +38,7 @@ SIZE_UNITS = ['B', 'KB', 'MB', 'GB', 'TB', 'PB']
 STATUS_START = 0
 PAGES = 1
 PAGE_NO = 1
-STATUS_LIMIT = 4
+STATUS_LIMIT = 1
 
 class MirrorStatus:
     STATUS_UPLOADING = "Uploading"
