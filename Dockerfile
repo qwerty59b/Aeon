@@ -1,4 +1,4 @@
-FROM luffy01/koyebaeon:latest
+FROM luffy01/koyebwzml:latest
 WORKDIR /usr/src/app
 COPY . .
 CMD ["bash", "start.sh"]
